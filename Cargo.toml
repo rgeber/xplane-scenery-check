@@ -1,0 +1,9 @@
+[package]
+name = "xplane-scenery-check"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.4.6", features = ["derive"] }
+glob = { version = "0.3.1"}
+rayon = { version = "1.8.0" }
