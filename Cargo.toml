@@ -2,6 +2,14 @@
 name = "xplane-scenery-check"
 version = "0.1.0"
 edition = "2021"
+repository = "https://code.geber.io/romangeber/xplane-scenery-check"
+license = "MIT"
+authors = ["Roman Geber <dlz9zxdkjptu@romangeber.com>"]
+rust-version = "1.71.0"
+keywords = ["xplane", "flightsim"]
+categories = ["aerospace::simulation", "game-development"]
+publish = false
+description = "A simple command line tool to scan you X-Plane scenery for errors."
 
 [dependencies]
 clap = { version = "4.4.6", features = ["derive"] }
